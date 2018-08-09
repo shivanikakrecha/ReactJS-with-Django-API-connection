@@ -1,0 +1,79 @@
+@media screen and (max-width: 650px) {
+
+  p {
+    font-size: 14px;
+  }
+
+   .box {
+      padding: 1.7em 1.5em 0.9em;
+   }
+
+   .form-control, .btn {
+      width: 85%;
+   }
+
+   .flabel {
+      left: 6.4em;
+      top: 1.05em;
+   }
+
+   h1 {
+    font-size: 1.14em;
+    line-height: 1.4;
+    margin: 20px auto 30px;
+  }
+
+  .forgot {
+    margin: 25px auto 15px;
+  }
+
+  .links {
+   width: 100%;
+  }
+
+
+  #background, .phone #background {
+    max-height: 300px;
+  }
+
+  .auth .box, .phone .box, .forgotpassword .box,
+  .phone.recovery .box,
+  .phone.recovery.success .box {
+    margin: 1em auto 2em;
+  }
+
+  .forgotpassword .box {
+    padding: 1em 1.8em 1.5em;
+  }
+
+  .buttons {
+    margin: 1.8em auto 0.5em;
+  }
+
+  .buttons div {
+    padding: 0 10px;
+    margin-bottom: 15px;
+  }
+
+  .phone .cc {
+    width: 20%;
+  }
+
+  .phone .mobile {
+    width: 75%;
+  }
+
+  .btn-primary.action,
+  .forgotpassword p {
+    width: 80%;
+  }
+
+  p.notice {
+    width: 88%;
+  }
+
+  .success p.notice {
+    padding: 0.5em 13px 0.5em;
+  }
+
+}
