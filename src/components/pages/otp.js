@@ -29,9 +29,9 @@ export default class OTP extends React.Component {
             submitted: true,
         });
         const {otp1, otp2, otp3, otp4, cache_email, cache_phone} = this.state;
-        // let email = 'shivanikakrecha@gmail.com';
+        // let email = 'xyz@gmail.com';
         let email = cache_email ? cache_email : this.state.email;
-        // let phone = '+919409525197';
+        // let phone = '+919412389567';
         let phone = cache_phone ? cache_phone : this.state.phone;
         let otp = otp1 + otp2 + otp3 + otp4;
 
